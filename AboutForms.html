@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="method ="post"">
+        <label for="unname">Enter Name:</label>
+        <input type="text" name="unname" size="30" maxlength="10" placeholder="Enter Your Name" required>
+        <br><br>
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="pass1" size="10" placeholder="password should be alleast 8 characters" required>
+        <br><br>
+        <label for="unname">Enter Email:</label>
+        <input type="text" name="email"id="email" required >
+        <br><br>
+        <label for="text" >Name of the Movie</label>
+        <br>
+        <input type="text" name="email"id="email" required >
+        <br><br>
+        <label for="Review">Write a Movie Review:</label>
+        <br>
+        <textarea name="review" id="review" rows="9" cols="40">The Movie is so Thilling</textarea>
+        <br><br>
+        <label for="label">Choose the Language you know:</label>
+        <br>
+        <input type="checkbox" name="lang"id="Hindi" value="hin">
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" name="lang"id="lang" value="eng"checked>English
+        <input type="checkbox" name="lang"id="lang" value="span" >Spanish
+        <input type="checkbox" name="lang"id="lang" value="fre">French
+        <input type="checkbox" name="lang"id="lang" value="jap" >Japaneses
+        <br><br>
+        <label for="qual">Choose your highest Qualifacation:</label>
+        <br>
+        <input type="radio" name="qual" id="b.tech" value="b.tech" >
+        <label for="b.tech" >B.Tech</label>
+        <input type="radio" name="qual" id="qual" value="m.tech">M.Tech
+        <input type="radio" name="qual" id="qual" value="ph.d">Ph.D
+        <input type="radio" name="qual" id="qual" value="pos">PostDoc
+        <br><br>
+        <label for="statesel">Choose your State:</label>
+        <br>
+        <select name="statesel" id="statesel" size="4" multiple>
+            <option value="choosesle">Select the State</option>
+            <option value="andh">Andhra Pradesh</option>
+            <option value="tamil">Tamil Nadu</option>
+            <option value="ker">Kerala</option>
+            <option value="punj">Punjab</option>
+
+        </select>
+        <br><br>
+        <label for="selfile">Choose the File:</label>
+        <input type="file" name="selfile" id="selfile" accept="image/*" >
+        <br><br>
+        <input type="reset" name="resetform"id="resetform"value="Reset Form">
+        <input type="submit" name="submitform"id="submitform"value="Submit Form" required >
+        <br>
+        <input type="image" name="imagen"id="imagen" src="Images\submit.jpg" width="100"  height="100">
+
+    </form>
+</body>
+</html>
